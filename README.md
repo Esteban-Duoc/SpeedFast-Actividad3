@@ -93,7 +93,7 @@ Para ejecutar el proyecto:
 
 1. Abrir el proyecto en IntelliJ IDEA.
 2. Verificar que esté configurado un JDK compatible.
-3. Tener un servidor MySQL en ejecución y crear la base de datos `speedfast_db` con sus tablas (`repartidores`, `pedidos`, `entregas`).
+3. Tener un servidor MySQL en ejecución. Ejecutar el script `script_base_datos.sql` (incluido en la raíz del proyecto) para crear automáticamente la base de datos `speedfast_db` y sus tablas (`repartidores`, `pedidos`, `entregas`).
 4. Configurar el usuario y contraseña de conexión en `ConexionDB.java`.
 5. Ejecutar la clase `Main`.
 6. Utilizar la interfaz gráfica para registrar y gestionar repartidores, pedidos y entregas.
